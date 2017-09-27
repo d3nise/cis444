@@ -1,0 +1,27 @@
+/* definition.html stylesheet */
+body {
+    font-family: Times New Roman, Gamamond, serif;
+    font-size:16px;
+    color:#000000;
+    background-repeat: repeat;
+    background-position: right top;
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
+
+/* This is for maincontent */
+p{
+    text-align: justify-all;
+}
+
+dt{
+    font-family: Courier,Prestige;
+    font-size: 1em;
+}
+
+dd{
+    font-family: Times New Roman, Gamamond, serif;
+    font-size: 1.1em;
+    font-style: italic;
+}
