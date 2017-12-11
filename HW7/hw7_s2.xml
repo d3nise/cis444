@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Link to css file -->
+<?xml-stylesheet type = "text/css" href = "hw7_s3.css" ?>
+
+<!--CREATE A CATALOG ROOT TAG-->
+<catalog 
+    xmls="http://cis444.cs.csusm.edu"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://cis444.cs.csusm.edu/cis444/HW/HW7/hw7.xsd">
+
+<h1>CARS CATALOG</h1>
+<car>
+  <make> <h4> Make: </h4> Honda </make>
+  <model> <h4> Model: </h4> S2000 </model>
+  <year> <h4> Year: </h4> 2009 </year>
+  <color> <h4> Color: </h4> Pink </color>
+  <engine>
+    <cylinders> <h4> Cylinders: </h4> 4 </cylinders>
+    <fuel_system> <h4> Fuel System: </h4> Fuel Injected </fuel_system>
+  </engine>
+  <number_of_doors> <h4> Doors: </h4> 2 </number_of_doors>
+  <transmission_type> <h4> Transmission: </h4> Manual </transmission_type>
+  <accessories>
+    <radio> <h4> Radio: </h4> Yes </radio>
+    <air_conditioning> <h4> Air Conditioning: </h4> Yes </air_conditioning>
+    <power_windows> <h4> Power Windows: </h4> Yes </power_windows>
+    <power_steering> <h4> Power Steering: </h4> Yes </power_steering>
+    <power_brakes> <h4> Power Brakes: </h4> Yes </power_brakes>
+  </accessories>
+</car>
+
+<car>
+  <make> <h4> Make: </h4> Honda </make>
+  <model> <h4> Model: </h4> Fit </model>
+  <year> <h4> Year: </h4> 2016 </year>
+  <color> <h4> Color: </h4> White </color>
+  <engine>
+    <cylinders> <h4> Cylinders: </h4> 4 </cylinders>
+    <fuel_system> <h4> Fuel System: </h4> Fuel Injected  </fuel_system>
+  </engine>
+  <number_of_doors> <h4> Doors: </h4> 4 </number_of_doors>
+  <transmission_type> <h4> Transmission: </h4> Automatic </transmission_type>
+  <accessories>
+    <radio> <h4> Radio: </h4> Yes </radio>
+    <air_conditioning> <h4> Air Conditioning: </h4> Yes </air_conditioning>
+    <power_windows> <h4> Power Windows: </h4> Yes </power_windows>
+    <power_steering> <h4> Power Steering: </h4> Yes </power_steering>
+    <power_brakes> <h4> Power Brakes: </h4> Yes </power_brakes>
+  </accessories>
+</car><car>
+
+<make> <h4> Make: </h4> Lexus </make>
+<model> <h4> Model: </h4> es300 </model>
+<year> <h4> Year: </h4> 1992 </year>
+<color> <h4> Color: </h4> Black </color>
+<engine>
+  <cylinders> <h4> Cylinders: </h4> 6 </cylinders>
+  <fuel_system> <h4> Fuel System: </h4> Fuel Injected </fuel_system>
+</engine>
+<number_of_doors> <h4> Doors: </h4> 4 </number_of_doors>
+<transmission_type> <h4> Transmission: </h4> Automatic </transmission_type>
+<accessories>
+  <radio> <h4> Radio: </h4> Yes </radio>
+  <air_conditioning> <h4> Air Conditioning: </h4> Yes </air_conditioning>
+  <power_windows> <h4> Power Windows: </h4> Yes </power_windows>
+  <power_steering> <h4> Power Steering: </h4> Yes </power_steering>
+  <power_brakes> <h4> Power Brakes: </h4> Yes </power_brakes>
+</accessories>
+</car>
+
+<car>
+  <make> <h4> Make: </h4> Lexus </make>
+  <model> <h4> Model: </h4> CT </model>
+  <year> <h4> Year: </h4> 2016 </year>
+  <color> <h4> Color: </h4> White </color>
+  <engine>
+    <cylinders> <h4> Cylinders: </h4> 4 </cylinders>
+    <fuel_system> <h4> Fuel System: </h4> Fuel Injected </fuel_system>
+  </engine>
+  <number_of_doors> <h4> Doors: </h4> 6 </number_of_doors>
+  <transmission_type> <h4> Transmission: </h4> Automatic </transmission_type>
+  <accessories>
+    <radio> <h4> Radio: </h4> Yes </radio>
+    <air_conditioning> <h4> Air Conditioning: </h4> Yes </air_conditioning>
+    <power_windows> <h4> Power Windows: </h4> Yes </power_windows>
+    <power_steering> <h4> Power Steering: </h4> Yes </power_steering>
+    <power_brakes> <h4> Power Brakes: </h4> Yes </power_brakes>
+  </accessories>
+</car>
+</catalog>
+
+<!--
+  DENISE THUY VY NGUYEN =^.,.^=
+  http://cis444.cs.csusm.edu/nguye208/cis444/HW/HW7/hw7_s2.xml
+  2. Create an XML document with at least three instances of the car element defined in the 
+  XML schema of Exercise 1. 
+    a. Process this document by using the XML schema of Exercise 1, and  produce a display of
+    the raw XML document.
+-->

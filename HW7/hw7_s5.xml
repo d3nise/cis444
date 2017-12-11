@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="hw7_s5.xsl"?>
+<!-- Create a catalog root tag -->
+<catalog>
+  <!-- FIRST INSTANCE OF THE CAR ELEMENT DEFINED IN XML SCHEMA -->
+  <car>
+    <make> Honda </make>
+    <model> S2000 </model>
+    <year> 2009 </year>
+    <color> Pink </color>
+    <engine>
+      Cylinders:<cylinders> 4 </cylinders>
+      Fuel System:<fuel_system> Fuel Injected </fuel_system>
+    </engine>
+    <number_of_doors> 4 </number_of_doors>
+    <transmission_type> Manual </transmission_type>
+    <accessories>
+      Radio:<radio> Yes </radio>
+      Air Conditioning: -<air_conditioning> Yes </air_conditioning>
+      Power Windows:<power_windows> Yes </power_windows>
+      Power Steering:<power_steering> Yes </power_steering>
+      Power Brakes:<power_brakes> Yes </power_brakes>
+    </accessories>
+  </car>
+
+  <!-- SECOND INSTANCE OF THE CAR ELEMENT DEFINED IN XML SCHEMA -->
+  <car>
+    <make> Honda </make>
+    <model> Fit </model>
+    <year> 2016 </year>
+    <color> White </color>
+    <engine>
+      Cylinders:<cylinders>  4 </cylinders>
+      Fuel System:<fuel_system> Fuel Injected </fuel_system>
+    </engine>
+    <number_of_doors> 4 </number_of_doors>
+    <transmission_type> Automatic </transmission_type>
+    <accessories>
+      Radio:<radio> Yes </radio>
+      Air Conditioning: -<air_conditioning> Yes </air_conditioning>
+      Power Windows:<power_windows> Yes </power_windows>
+      Power Steering:<power_steering> Yes </power_steering>
+      Power Brakes:<power_brakes> Yes </power_brakes>
+    </accessories>
+  </car>
+
+  <!-- THIRD INSTANCE OF THE CAR ELEMENT DEFINED IN XML SCHEMA -->
+  <car>
+    <make> Lexus </make>
+    <model> es300 </model>
+    <year> 1992 </year>
+    <color> Black </color>
+    <engine>
+      Cylinders:<cylinders> 6 </cylinders>
+      Fuel System:<fuel_system> Fuel Injected </fuel_system>
+    </engine>
+    <number_of_doors> 2 </number_of_doors>
+    <transmission_type> Automatic </transmission_type>
+    <accessories>
+      Radio:<radio> Yes </radio>
+      Air Conditioning: -<air_conditioning> Yes </air_conditioning>
+      Power Windows:<power_windows> Yes </power_windows>
+      Power Steering:<power_steering> Yes </power_steering>
+      Power Brakes:<power_brakes> Yes </power_brakes>
+    </accessories>
+  </car>
+
+
+  <!-- FOURTH INSTANCE OF THE CAR ELEMENT DEFINED IN XML SCHEMA -->
+  <car>
+    <make> Lexus </make>
+    <model> CT </model>
+    <year> 2016 </year>
+    <color> White </color>
+    <engine>
+      Cylinders:<cylinders> 4 </cylinders>
+      Fuel System:<fuel_system> Fuel Injected </fuel_system>
+    </engine>
+    <number_of_doors> 6 </number_of_doors>
+    <transmission_type> Automatic </transmission_type>
+    <accessories>
+      Radio:<radio> Yes </radio>
+      Air Conditioning: -<air_conditioning> Yes </air_conditioning>
+      Power Windows:<power_windows> Yes </power_windows>
+      Power Steering:<power_steering> Yes </power_steering>
+      Power Brakes:<power_brakes> Yes </power_brakes>
+    </accessories>
+  </car>
+</catalog>
+
+<!--
+  DENISE THUY VY NGUYEN =^.,.^=
+  CIS 444
+  http://cis444.cs.csusm.edu/nguye208/cis444/HW/HW7/hw7_s5.xml
+-->

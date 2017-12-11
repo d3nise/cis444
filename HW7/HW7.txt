@@ -1,0 +1,72 @@
+============================================================================================================
+Write, test, and debug (if necessary) each of the documents described:
+1. Create an XML schema for a catalog of cars, 
+	a. where each car has the child elements make, model, year, color, engine, number_of_doors, transmission_type, and accessories. 
+	
+	b. The engine element has the child elements number_of_cylinders and fuel_system (carbureted 
+	or fuel injected). 
+
+	c. The accessories element has the attributes radio, air_conditioning, power_windows, 
+	power_steering, and power_brakes, 
+		i . each of which is required and has the possible values yes and no.
+
+2. Create an XML document with at least three instances of the car element defined in the 
+XML schema of Exercise 1. 
+	a. Process this document by using the XML schema of Exercise 1, and  produce a display of the raw XML document.
+
+3 . Create a CSS style sheet for the XML document of Exercise 2, and use it to create a 
+display of that document.
+
+4 . Create an XSLT style sheet for one car element of the XML document of Exercise 2, 
+and use it to create a display of that element.
+
+5 . Modify the XSLT style sheet of Exercise 4 to format all the car elements in the XML 
+document of Exercise 2, and use the style sheet to create a display of the whole document.
+
+
+After creating, testing, and validating the XSD, XML, CSS and XSLT documents, publish 
+them on your document root on the server. Then submit their URLs with your documents 
+as attachments in the Cougar Course by the deadline.
+============================================================================================================
+
+
+============================================
+LINKS
+============================================
+• http://cis444.cs.csusm.edu/nguye208/cis444/HW/HW7/hw7_s2.xml
+• view-source:http://cis444.cs.csusm.edu/nguye208/cis444/HW/HW7/hw7_s3.css
+• http://cis444.cs.csusm.edu/nguye208/cis444/HW/HW7/hw7_s4.xml
+• http://cis444.cs.csusm.edu/nguye208/cis444/HW/HW7/hw7_s5.xml
+
+
+============================================
+NOTES 
+============================================
+Every tmeplate will call a function. 
+When a template fits, it will be used. 
+
+
+{
+	XML	
+}
+<?xml version = "1.0" encoding = "utf-8"?>
+
+ 7.3 The Syntax of XML
+• Syntax rules for XML: same as those of XHTML
+• Every XML document defines a single root element, whose opening tag must
+appear as the first line of the document
+• An XML document that follows all of these rules is well formed <?xml version = "1.0" encoding = "utf-8" ?>
+<ad>
+<year> 1960 </year>
+<make> Cessna </make>
+<model> Centurian </model>
+<color> Yellow with white trim </color> <location>
+<city> Gulfport </city>
+<state> Mississippi </state> </location>
+</ad>
+
+
+- Take html and convert to XML.
+- 
+
+" . " current period.
