@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- 
+     http://cis444.cs.csusm.edu/nguye208/cis444/HW/HW6/Homework6.html
+     DENISE THUY VY NGUYEN CIS 444 WU 
+     This is file used to allow a user to enter
+     a NFL teamID via a textbox. Once the user
+     clicks the submit button, a PHP script is
+     processes the request and displays the team
+     information corresponding to the teamID entered
+     in a bordered table with the proper headings.
+-->
+
+<html lang = "en">
+     <head>
+          <title> CIS 444 HW 6 NFL Teams </title>
+          <meta charset = "utf-8" />
+
+          <!-- Link to CSS File       -->
+       <link rel = "stylesheet" type = "text/css" href = "pinkTable.css" />    
+          <!-- Link to JavaScript File
+          <script type = "text/javascript" src = "Homework6.js"> </script>
+
+     -->
+     </head>
+     <body>
+<div class="body_container">
+    <div class="main_body">
+
+          <h1> NFL Teams </h1>
+          <p class="lft">
+               Please enter a Team ID to search for:
+               <br />
+               <form action = "Homework6.php" method = "post">
+                    <input type = "text" name = "teamIDQuery" size = "20" placeholder="Search"></input>
+                    <br /> <br />
+                    <input type = "submit" value = "Submit ID"/>
+                    <input type = "reset" value = "Reset"/>
+               </form>
+          </p>
+
+
+
+     </div>
+</div>
+     </body>
+</html>

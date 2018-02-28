@@ -1,0 +1,103 @@
+html
+{
+      overflow: auto;
+}
+
+body{
+    font-family: "Courier New", Courier, monospace;
+    font-size 8px;
+    padding: 5px;
+    width: atuo;             /* Makes container smaller than body */
+    margin: auto;
+    background-color: #FFFFFF;
+    background-image: url("fb.jpg");
+    background-repeat: repeat;
+}
+/* MAIN BODY */
+.body_container{
+    width: 90%;             /* Makes container smaller than body */
+    margin-left: auto;      /* Centers container within body */
+    margin-right: auto;
+    background-color: #A9A9A9;
+}
+
+.main_body{
+    padding: 5px;
+    background-color: #CCCCFF;
+}
+#main_content{
+    color: #F8F8FF;
+    text-align: left;
+}
+
+#wrapper {
+    top: 70px; left: 0px;
+    border: 1px solid black;
+    position: auto;
+    background-color: #CCCCFF;
+    padding: 20px;
+    }
+
+table{
+    margin: 0 auto;
+    padding: 5px;
+    border-color: #FF66FF;
+
+}
+
+/*HEADERS*/
+th{
+    font-family: "Courier New", Courier, monospace;
+    font-size 8px;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+    border-style: medium solid;
+    border-color: #6699FF;
+    background-color: #FF66FF;
+}
+
+/*ROWS*/
+tr{
+    padding: 0px;
+    text-align: center;
+    border-style: small solid;
+    background-color: #FFCCFF;
+}
+
+/*ALTERNATING BG COLORS*/
+tr:nth-child(odd){
+    background-color: #FF99FF;
+}
+
+/*CELLS IN TABLE*/
+td{
+    font-family: "Courier New", Courier, monospace;
+    padding: 1px;
+    border-style: small solid;
+    border-color: #6699FF;
+}
+
+h1{
+    font-family: "Courier New", Courier, monospace;
+    text-align: left;
+}
+
+p{
+    text-align: center;
+}
+
+p.lft{
+    text-align: left;
+}
+
+p.error {
+    width: 230px;
+    height: auto;
+    background: #ffcccc;
+    border: 1px solid #ef0000;
+    margin: 32px auto;
+    text-align: center;
+    color: #ff0000; 
+    padding: 12px;
+}

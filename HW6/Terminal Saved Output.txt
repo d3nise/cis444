@@ -1,0 +1,277 @@
+Last login: Sat Nov 18 00:31:40 on ttys000
+dkitty:~ d3nise$ ls
+2D Platformer				Walk-in-Their-Shoes
+435					WebstormProjects
+AVtoryWebsite				avtory-server
+AWS					awsBin
+Applications				cis444
+CS					d3nise
+Creative Cloud Files			d3nise.pub
+DelegateAdapters			epel-release-latest-7.noarch.rpm
+Desktop					exercism
+Documents				get-pip.py
+Downloads				gotchi-cat
+F55D4D7243B0				java_error_in_webstorm.hprof
+Google Drive				lightbulb
+Library					nguye208-instance.txt
+Movies					pokipoki
+Music					sdot
+PDF_Reader				server.txt
+Pictures				serverStuff.txt
+PokiPoki-v2				serverStuff.txt~
+Public					setuptools-33.1.1.zip
+TotalValidator.dmg			steam scense
+VM					totalvalidator.log
+VirtualBox VMs				venv
+dkitty:~ d3nise$ ssh nguye208@cis444.cs.csusm.edu
+ssh: connect to host cis444.cs.csusm.edu port 22: Connection refused
+dkitty:~ d3nise$ ssh nguye208@cis444.cs.csusm.edu
+ssh: connect to host cis444.cs.csusm.edu port 22: Connection refused
+dkitty:~ d3nise$ ssh nguye208@cis444.cs.csusm.edu
+ssh: connect to host cis444.cs.csusm.edu port 22: Connection refused
+dkitty:~ d3nise$ 
+dkitty:~ d3nise$ ssh nguye208@cis444.cs.csusm.edu
+ssh: connect to host cis444.cs.csusm.edu port 22: Connection refused
+dkitty:~ d3nise$ ssh nguye208@cis444.cs.csusm.edu
+ssh: connect to host cis444.cs.csusm.edu port 22: Connection refused
+dkitty:~ d3nise$ ssh nguye208@cis444.cs.csusm.edu
+ssh: connect to host cis444.cs.csusm.edu port 22: Connection refused
+dkitty:~ d3nise$ ssh nguye208@cis444.cs.csusm.edu
+nguye208@cis444.cs.csusm.edu's password: 
+Permission denied, please try again.
+nguye208@cis444.cs.csusm.edu's password: 
+Permission denied, please try again.
+nguye208@cis444.cs.csusm.edu's password: 
+Last failed login: Sat Nov 18 21:54:25 PST 2017 from 144.37.107.177 on ssh:notty
+There were 2 failed login attempts since the last successful login.
+Last login: Thu Nov 16 13:39:00 2017 from 144.37.107.236
+[nguye208@cis444 ~]$ cat cis.txt 
+cd /var/www/html/nguye208/cis444
+[nguye208@cis444 ~]$ cd /var/www/html/nguye208/cis444
+[nguye208@cis444 cis444]$ 
+[nguye208@cis444 cis444]$ ls
+bg  css  database  examples  HW  images  index.html  js  media  menui  meow  nav  php  renders
+[nguye208@cis444 cis444]$ cd database/
+[nguye208@cis444 database]$ ls
+hw6.html  teams.sql
+[nguye208@cis444 database]$ ls
+databaseAcess.sql  HW6
+[nguye208@cis444 database]$ cd HW6/
+[nguye208@cis444 HW6]$ ls
+databaseAcess.html  databaseAcess.php  teams.sql
+[nguye208@cis444 HW6]$ emacs databaseAcess.css
+[nguye208@cis444 HW6]$ ls
+databaseAcess.css  databaseAcess.html  databaseAcess.php  teams.sql
+[nguye208@cis444 HW6]$ soucce
+-bash: soucce: command not found
+[nguye208@cis444 HW6]$ mysql -u nguye208 -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 1149
+Server version: 5.7.19 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2017, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> uses nguye208
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'uses nguye208' at line 1
+mysql> use nguye208;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> show tables
+    -> ;
++--------------------+
+| Tables_in_nguye208 |
++--------------------+
+| TEAM_ID            |
+| USERS              |
++--------------------+
+2 rows in set (0.00 sec)
+
+mysql> select * from tables;
+ERROR 1146 (42S02): Table 'nguye208.tables' doesn't exist
+mysql> DROP TABLE TEAM_ID
+    -> ;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> source nfl.sql
+ERROR: 
+Failed to open file 'nfl.sql', error: 2
+mysql> source teams.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO TEAM_ID(teamName, startYear, ownerName, GMName, coachName, startQB, ' at line 18
+mysql> source teams.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO TEAM_ID(teamName, startYear, ownerName, GMName, coachName, startQB, ' at line 18
+mysql> source teams.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO TEAM_ID(teamName, startYear, ownerName, GMName, coachName, startQB, ' at line 18
+mysql> source teams.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO TEAM_ID(teamName, startYear, ownerName, GMName, coachName, startQB, ' at line 18
+mysql> ls *sql
+    -> ;'
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ls *sql' at line 1
+    '> ;
+    '> 
+    '> ;
+    '> ^C
+mysql> ls *.sqql
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ls *.sqql' at line 1
+mysql> ls *.sql
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ls *.sql' at line 1
+mysql> source teams.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO TEAM_ID(teamName, startYear, ownerName, GMName, coachName, startQB, ' at line 18
+mysql> source teams.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO TEAM(teamName, startYear, ownerName, GMName, coachName, startQB, off' at line 18
+mysql> source teams.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO TEAM(teamName, startYear, ownerName, GMName, coachName, startQB, off' at line 18
+mysql> exit
+Bye
+[nguye208@cis444 HW6]$ cat teams.sql 
+/*TEAM_ID Table*/
+CREATE TABLE TEAM(
+       teamID INT AUTO_INCREMENT PRIMARY KEY,
+       teamName CHAR(45) NOT NULL,
+       startYear INT(4) NOT NULL,
+       ownerName VARCHAR(256) NOT NULL,
+       GMName VARCHAR(256) NOT NULL,
+       coachName VARCHAR(256) NOT NULL,
+       startQB VARCHAR(256) NOT NULL,
+       officeAddress VARCHAR(256) NOT NULL,
+       city CHAR(50) NOT NULL,
+       state CHAR(50) NOT NULL,
+       zipCode INT(5) NOT NULL,
+       phone VARCHAR(15) NOT NULL,
+       overallRecord VARCHAR(15) NOT NULL,
+       confRecord VARCHAR(15) NOT NULL
+)
+
+INSERT INTO TEAM(teamName, startYear, ownerName, GMName, coachName, startQB, officeAddress, city, state, zipCode, phone, overallRecord, )
+       VALUES (Dallas Cowboys,1960,Jerry Jones,Jerry Jones,Jason Garrett,Rayne Dak Prescott,One Cowboys Way,
+Frisco ,TX, 75034,972-497-4060,)
+
+/*
+DENISE THUY VY NGUYEN
+aCIS 444 HW 6
+The teams table must be created with the following fields with proper types: 
+teamID, 
+teamName,
+startYear, 
+ownerName, 
+GMName, 
+coachName, 
+startQB, 
+officeAddress, 
+city, 
+state, 
+zipCode,
+phone,
+overallRecord, 
+confRecord
+
+EX: Cowboys, 1960, Jerry Jones, Jerry Jones, Jason Garrett, Dak Prescott,
+ One Legend Way, Arlington, TX 76011, (817)892-4000, W5-L4, W4-L3
+*/
+
+
+[nguye208@cis444 HW6]$ mysql -u nguye208 -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 1150
+Server version: 5.7.19 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2017, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> use nguye208;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> source teams.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO TEAM(teamName, startYear, ownerName, GMName, coachName, startQB, off' at line 18
+mysql> source teams.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO TEAM(teamName, startYear, ownerName, GMName, coachName, startQB, off' at line 18
+mysql> source teams.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO TEAM(teamName, startYear, ownerName, GMName, coachName, startQB, off' at line 18
+mysql> source teams.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO TEAM(teamName, startYear, ownerName, GMName, coachName, startQB, off' at line 18
+mysql> source teams.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO TEAM(teamName, startYear, ownerName, GMName, coachName, startQB, off' at line 18
+mysql> source teams.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO TEAM(teamName, startYear, ownerName, GMName, coachName, startQB, off' at line 18
+mysql> source teams.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO TEAM(teamName, startYear, ownerName, GMName, coachName, startQB, off' at line 18
+mysql> source teams.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO TEAM(teamName, startYear, ownerName, GMName, coachName, startQB, off' at line 18
+mysql> source teams.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO TEAM(teamName, startYear, ownerName, GMName, coachName, startQB, off' at line 18
+mysql> DROP TABLE TEAM_ID
+    -> 
+[1]+  Stopped                 mysql -u nguye208 -p
+[nguye208@cis444 HW6]$ ls
+databaseAcess.css  databaseAcess.html  databaseAcess.php  teams.sql
+[nguye208@cis444 HW6]$ mysql -u nguye208 -p
+Enter password: 
+ERROR 1045 (28000): Access denied for user 'nguye208'@'localhost' (using password: YES)
+[nguye208@cis444 HW6]$ mysql -u nguye208 -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 1152
+Server version: 5.7.19 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2017, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> use nguye208;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+mysql> source teams.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO TEAM(teamName, startYear, ownerName, GMName, coachName, startQB, off' at line 18
+mysql> source teams.sql
+Query OK, 0 rows affected (0.01 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Cowboys,1960,Jerry Jones,Jerry Jones,Jason Garrett,Rayne Dak Prescott,One Cowboy' at line 2
+mysql> mysql>ls *.txt
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sourcels *.txt' at line 1
+mysql> ls * .txt
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ls * .txt' at line 1
+mysql> ls *.txt
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ls *.txt' at line 1
+mysql> soruce insesrt.txt;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'soruce insesrt.txt' at line 1
+mysql> soruce insesrt.txt
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'soruce insesrt.txt' at line 1
+mysql> source insert.txt
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select * from TEAM;
++--------+----------------+-----------+-------------+-------------+---------------+--------------------+-----------------+--------+-------+---------+--------------+---------------+------------+
+| teamID | teamName       | startYear | ownerName   | GMName      | coachName     | startQB            | officeAddress   | city   | state | zipCode | phone        | overallRecord | confRecord |
++--------+----------------+-----------+-------------+-------------+---------------+--------------------+-----------------+--------+-------+---------+--------------+---------------+------------+
+|      1 | Dallas Cowboys |      1960 | Jerry Jones | Jerry Jones | Jason Garrett | Rayne Dak Prescott | One Cowboys Way | Frisco | TX    |   75034 | 972-497-4060 | W5-L4         | W4-L3      |
++--------+----------------+-----------+-------------+-------------+---------------+--------------------+-----------------+--------+-------+---------+--------------+---------------+------------+
+1 row in set (0.00 sec)
+
+mysql> 

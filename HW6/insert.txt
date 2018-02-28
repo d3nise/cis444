@@ -1,0 +1,14 @@
+INSERT INTO TEAM(teamName, startYear, ownerName, GMName, coachName, startQB, officeAddress, city, state, zipCode, phone, overallRecord,confRecord)
+VALUES ('Dallas Cowboys','1960','Jerry Jones','Jerry Jones','Jason Garrett','Rayne Dak Prescott','One Cowboys Way','Frisco','TX','75034','(972)-497-4060','W5-L4','W4-L3');
+
+INSERT INTO TEAM(teamName, startYear, ownerName, GMName, coachName, startQB, officeAddress, city, state, zipCode, phone, overallRecord,confRecord)
+VALUES ('49ers','1946','John Edward',
+		'John Lynch','Kyle Shanahan','C. J. Beathard',
+		'4949 Marie P DeBartolo Way','Santa Clara','CA'
+		'Santa Clara','(408) 562-4949','W5-L4','W4-L3');
+
+INSERT INTO TEAM(teamName, startYear, ownerName, GMName, coachName, startQB, officeAddress, city, state, zipCode, phone, overallRecord,confRecord)
+VALUES ('Saints', 1967, 'Tom Benson', 
+		'Mickey Loomis', 'Sean Payton','Drew Brees', 
+		'Airline Drive', 'Metairie', 'LA', 70003,
+		'(504)731-1700', 'W345-L429', 'W8-L2');
